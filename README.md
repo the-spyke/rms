@@ -1,6 +1,6 @@
 # JavaScript Raw Module Specification
 
-`version 0.2.0`
+`version 0.2.1`
 
 ## Summary
 
@@ -10,7 +10,7 @@ To achieve these goals `RMS` suggests to publish packages in the native `ECMAScr
 
 Today's applications consist of hundreds and thousands of files of different kinds. To manage this complexity and streamline app delivery developers started using the same approach as on desktops: compile & link. In relation to a web application `compilation` usually means `transpiling`, while `linking` means `bundling`. [Babel](https://babeljs.io/) became a _defacto_ tool for down compiling JavaScript code to older versions and could be used as an integration point.
 
-`RMS` leverages `TC39` process and `Babel` and defines rules for consuming and upgrading conforming packages without a hustle.
+`RMS` leverages `TC39` process and `Babel` and defines rules for consuming and upgrading compliant packages without a hustle.
 
 The key words `MUST`, `MUST NOT`, `REQUIRED`, `SHALL`, `SHALL NOT`, `SHOULD`, `SHOULD NOT`, `RECOMMENDED`, `MAY`, and `OPTIONAL` in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
@@ -48,6 +48,6 @@ Add a badge to your project readme or page:
 
 Licensed under the MIT License, see [LICENSE](LICENSE) for more information.
 
-## Projects conforming to RMS
+## Projects compliant with RMS
 
 * [Undercut](https://github.com/the-spyke/undercut): JavaScript lazy data processing pipelines and utilities.
