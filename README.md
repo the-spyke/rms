@@ -8,7 +8,7 @@
 
 To achieve these goals `RMS` suggests to publish packages in the native `ECMAScript Modules` or `ESM` format and without down compilation to `ES5`. Consuming packages not in `ES5` format may be difficult as you need to know how to compile/process every single dependency package. Same time JavaScript is a developing language and new features appear every time. Luckily its development conforms to a specialized process governed by [TC39](https://tc39.es/) group. Language features are developed as proposals and pass through several _stages_ during their life cycle.
 
-Today's applications consist of hundreds and thousands of files of different kinds. To manage this complexity and streamline app delivery developers started using the same approach as on desktops: compile & link. In relation to a web application `compilation` usually means `transpiling`, while `linking` means `bundling`. [Babel](https://babeljs.io/) became a _defacto_ tool for down compiling JavaScript code to older versions and could be used as an integration point.
+Today's applications consist of hundreds and thousands of files of different kinds. To manage this complexity and streamline app delivery developers started using the same approach as on desktops: compile & link. In relation to a web application `compilation` usually means `transpiling`, while `linking` means `bundling`. [Babel](https://babeljs.io/) became a _de facto_ tool for down compiling JavaScript code to older versions and could be used as an integration point.
 
 `RMS` leverages `TC39` process and `Babel` and defines rules for consuming and upgrading compliant packages without a hustle.
 
